@@ -1,0 +1,39 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=1
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='MonostaticRCSTotal'
+			ValueState(235, 35, 0, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=23
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=24
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=10
+						SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=196
+						$begin 'MinorVVMap'
+							MajorVariation='Freq=\'1.0680000000000001GHz\''
+							MinorCacheFile='min0E3115444174395293122.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

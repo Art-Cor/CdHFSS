@@ -1,0 +1,68 @@
+$begin date_time_stamp
+	timesinceepock:1743952302
+$end date_time_stamp
+$begin sysinfo
+	os:win
+	cpuid:'Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz'
+	cpumodel:NA
+	cpubrand:intel
+	cpuPhyCores:4
+	cpuLogCores:8
+	cpufreqkhz:0
+	cpucachelinesize:64
+	cpuestllcmb:4
+	cpuestgflops:115.2
+	cpuestbwkbps:25.6
+	numnumanodes:1
+	virtualmemkb:1.37439e+11
+	pagesizekb:4096
+$end sysinfo
+$begin matsolver
+	$begin matsolverinfo
+		solvertype:shared_memory
+		solverprecision:double
+		solversymmetry:complex_symm
+		matrixdim:70860
+		matrixbw:18.9877
+		matrixnnz:1345470
+		rootdim:576
+		mathlib:mkl
+		nummpitasks:1
+		numthreadpermpitasks:0
+	$end matsolverinfo
+	$begin matsolveranalysis
+		analysysstatus:valid
+		numsupernodes:6227
+		factornnz:11062146
+		factorestflops:7561024990
+		fbsestflops:35937742
+		rootfactestflops:63703944
+		rootfbsestflops:165888
+		analysistimesec:0.47227
+		analysismemkb:39232
+	$end matsolveranalysis
+	$begin matsolverfact
+		fatorizationstatus:valid
+		factorizationnumcores:3
+		factorizationtimesec:0.444088
+		factorizationmentotalkb:237385
+	$end matsolverfact
+	$begin matsolverfbs
+		fbstatus:valid
+		fbstype:fullsolve
+		fbsmt:false
+		fbsmrhs:false
+		fbsnumcores:3
+		fbsnumsolves:61
+		fbsavgsolvetime1solvesec:0.0337758
+		fbscputimesec:2.06033
+		fbsmemorytotalkb:225528
+	$end matsolverfbs
+	$begin matsolverprofile
+		maxmemkb:237385
+		diskkb:0
+		totalrealtimesec:-1
+		totalcputimesec:-1
+		totaltimesec:-1
+	$end matsolverprofile
+$end matsolver
